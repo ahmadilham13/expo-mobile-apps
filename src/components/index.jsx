@@ -1,3 +1,4 @@
 import BottomNavigator from "./BottomNavigatior";
+import Saldo from './Saldo'
 
-export {BottomNavigator}
+export {BottomNavigator, Saldo}
