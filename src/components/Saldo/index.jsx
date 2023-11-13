@@ -54,20 +54,20 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between'
     },
     informasiSaldo: {
-        width: '60%'
+        width: '50%'
     },
     labelSaldo: {
-        fontSize: 18
+        fontSize: 14
     },
     valueSaldo: {
-        fontSize: 16,
+        fontSize: 12,
         fontStyle: 'italic'
     },
     labelPoint: {
-        fontSize: 12
+        fontSize: 10
     },
     valuePoint: {
-        fontSize: 12,
+        fontSize: 10,
         fontStyle: 'italic',
         color: WARNA_UTAMA
     },
@@ -75,6 +75,6 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'row',
         marginLeft: 10,
-        justifyContent: 'space-between'
+        justifyContent: 'flex-end',
     }
 })

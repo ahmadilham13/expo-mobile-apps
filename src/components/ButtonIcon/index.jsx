@@ -24,6 +24,8 @@ export default ButtonIcon
 
 const styles = StyleSheet.create({
     icon: {
+        width: 50,
+        height: 50,
         backgroundColor: WARNA_SEKUNDER,
         padding: 7,
         borderRadius: 10,
@@ -31,7 +33,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     text: {
-        fontSize: 10,
+        fontSize: 7,
         textAlign: 'center'
     }
 })
