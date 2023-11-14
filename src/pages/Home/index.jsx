@@ -11,7 +11,7 @@ const Home = () => {
         <ImageBackground source={ImageHeader} style={styles.header}>
           <Image source={Logo} style={styles.logo}/>
           <View style={styles.hello}>
-            <Text style={styles.selamat}>Selamat Datang</Text>
+            <Text style={styles.selamat}>Selamat Datang,</Text>
             <Text style={styles.username}>Ahmad Ilham</Text>
           </View>
         </ImageBackground>
@@ -56,17 +56,17 @@ const styles = StyleSheet.create({
     paddingTop: 10
   },
   logo: {
-    width: windowWidth*0.25,
+    width: windowWidth*0.26,
     height: windowHeight*0.06,
   },
   hello: {
     marginTop: windowWidth*0.025,
   },
   selamat: {
-    fontSize: 24,
+    fontSize: 15,
   },
   username: {
-    fontSize: 22,
+    fontSize: 24,
     fontStyle: 'italic'
   },
   layanan: {

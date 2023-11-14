@@ -30,7 +30,7 @@ export default ButtonIcon
 
 const styles = StyleSheet.create({
     container: (type) => ({
-        marginTop: 10,
+        // marginTop: 10,
         marginBottom: type === 'layanan' ? 12 : 0,
         marginRight: type === 'layanan' ? 10 : 0
     }),
