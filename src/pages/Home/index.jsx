@@ -1,7 +1,7 @@
 import { Dimensions, Image, ImageBackground, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import {ImageHeader, Logo} from '../../assets/images'
-import { Saldo } from '../../components'
+import { ButtonIcon, Saldo } from '../../components'
 
 const Home = () => {
   return (
@@ -14,6 +14,17 @@ const Home = () => {
         </View>
       </ImageBackground>
       <Saldo />
+      <View style={styles.layanan}>
+        <Text style={styles.label}>Layanan Kami</Text>
+        <View style={styles.iconLayanan}>
+          <ButtonIcon title="Kiloan" type="layanan" />
+          <ButtonIcon title="Satuan" type="layanan" />
+          <ButtonIcon title="VIP" type="layanan" />
+          <ButtonIcon title="Karpet" type="layanan" />
+          <ButtonIcon title="Setrika Saja" type="layanan" />
+          <ButtonIcon title="Express" type="layanan" />
+        </View>
+      </View>
     </View>
   )
 }
@@ -46,5 +57,20 @@ const styles = StyleSheet.create({
   username: {
     fontSize: 22,
     fontStyle: 'italic'
+  },
+  layanan: {
+    paddingHorizontal: 30,
+    paddingTop: 15
+  },
+  label: {
+    fontSize: 18,
+    textTransform: 'uppercase'
+  },
+  iconLayanan: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 10,
+    flexWrap: 'wrap'
   }
 })
