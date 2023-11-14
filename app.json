@@ -2,7 +2,7 @@
   "expo": {
     "name": "ilmLaundry",
     "slug": "ilmLaundry",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ilmLaundry.ilmLaundry"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bf4feb02-2776-45f6-a35b-02a72098904e"
+      }
     }
   }
 }
