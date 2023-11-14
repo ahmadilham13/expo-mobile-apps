@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     }),
     icon: (type) => ({
         width: type === 'layanan' ? (windowWidth/4) : 50,
-        height: type === 'layanan' ? (windowHeight/6) : 50,
+        height: type === 'layanan' ? (windowHeight/9) : 50,
         backgroundColor: WARNA_SEKUNDER,
         padding: type === 'layanan' ? 0 : 7,
         borderRadius: 10,
