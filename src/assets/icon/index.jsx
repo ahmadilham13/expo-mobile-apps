@@ -12,6 +12,7 @@ import IconKiloan from './kiloan.jsx'
 import IconSatuan from './satuan.jsx'
 import IconSetrika from './setrika.jsx'
 import IconVip from './vip.jsx'
+import IconPesananActiveList from './PesananActiveList.jsx'
 
 
 export {
@@ -29,4 +30,5 @@ export {
     IconSatuan,
     IconSetrika,
     IconVip,
+    IconPesananActiveList,
 }
