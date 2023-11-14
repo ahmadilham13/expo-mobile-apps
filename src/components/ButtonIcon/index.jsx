@@ -1,4 +1,4 @@
-import { StyleSheet, Text, Touchable, TouchableOpacity, View } from 'react-native'
+import { StyleSheet, Text, TouchableOpacity, View, Dimensions } from 'react-native'
 import React from 'react'
 import {IconAddSaldo, IconGetPoint, IconExpress, IconKarpet, IconKiloan, IconSatuan, IconSetrika, IconVip} from '../../assets'
 import { WARNA_SEKUNDER } from '../../utils/constans'
@@ -28,17 +28,20 @@ const ButtonIcon = ({title, type}) => {
 
 export default ButtonIcon
 
+const windowWidth = Dimensions.get('window').width
+const windowHeight = Dimensions.get('window').height
+
 const styles = StyleSheet.create({
     container: (type) => ({
         // marginTop: 10,
         marginBottom: type === 'layanan' ? 12 : 0,
-        marginRight: type === 'layanan' ? 10 : 0
+        marginRight: type === 'layanan' ? 0 : 0
     }),
     icon: (type) => ({
-        width: type === 'layanan' ? 100 : 50,
-        height: type === 'layanan' ? 100 : 50,
+        width: type === 'layanan' ? (windowWidth/4) : 50,
+        height: type === 'layanan' ? (windowHeight/6) : 50,
         backgroundColor: WARNA_SEKUNDER,
-        padding: type === 'layanan' ? 12 : 7,
+        padding: type === 'layanan' ? 0 : 7,
         borderRadius: 10,
         alignItems: 'center',
         justifyContent: 'center'

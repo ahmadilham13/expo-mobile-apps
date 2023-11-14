@@ -61,14 +61,14 @@ const styles = StyleSheet.create({
         fontSize: 20
     },
     valueSaldo: {
-        fontSize: 15,
+        fontSize: 14,
         fontStyle: 'italic'
     },
     labelPoint: {
         fontSize: 15
     },
     valuePoint: {
-        fontSize: 12,
+        fontSize: 14,
         fontStyle: 'italic',
         color: WARNA_UTAMA
     },
